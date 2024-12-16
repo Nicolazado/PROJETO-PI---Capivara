@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro de Habilidades</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+        <style>
+            div.cads > form > p > input.sal {
+                color: #6C4E31;
+                background-color: #FFDBB5;
+                border-radius: 10px;
+                align-self: center;
+                margin: 0;
+                width: 30%;
+                height: 40px;
+            }
+            div.friend > img {
+                width: 100%;
+                height: 600px;
+                flex: 70%;
+            }
+            main {
+                width: 100%;
+                height: 800px;
+                display: flex;
+                justify-content: center;
+            }
+            div.cads > form {
+                flex: 30%;
+            }
+            form > p > label {
+                color: #FFDBB5;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img class="logo" src="https://images.vexels.com/media/users/3/318410/isolated/preview/eba4aa0cd5cf829edb21df16da01a6a4-cute-capybara-playing-with-a-butterfly.png" alt="logo">
+            </div>
+            <div class="saudacao">
+                <h2 style="color:#6C4E31;">Cadastro de Habilidades🍂</h2>
+            </div>
+        </header>
+        <main style="background-image: url('../Folha.gif');background-position: center; height:700px; background-size: 100% 100%;">
+            <div class="cads">
+                <form method="post" action="cadastro_hab.jsp">
+                    <p>
+                        <label for="n">Nome da habilidade:</label>
+                        <input id="n" type="text" name="nome_hab" maxlength="70">
+                    </p>      
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="u">Usuário:</label>
+                        <input id="u" type="text" name="usuario" maxlength="20">
+                    </p>
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="h">Horário:</label>
+
+                        <select name="horario">
+                            <option value='manha'>Manhã</option>
+                            <option value='tarde'>Tarde</option>
+                            <option value='noite'>Noite</option>
+                        </select>
+                    </p>      
+                    <p>
+                        <input class="sal" type="submit" value="Salvar">
+                    </p>            
+                </form>  
+            </div>
+            <div class="friend">
+                <img src="https://media3.giphy.com/media/OgUorGH0Z75b3unoPA/giphy.gif?cid=6c09b9521hco2t9hz4dcvqofdldhhtujdc3u92ax1kvvv6ph&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s" alt="cap friend"/>
+            </div>
+        </main>
+        <hr id="sla">
+        <footer>
+            <p>All rights reserved to Nicolas Ribeiro © 2024</p>
+        </footer>
+    </body>
+</html>

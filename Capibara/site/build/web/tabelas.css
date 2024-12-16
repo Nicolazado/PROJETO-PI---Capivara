@@ -1,0 +1,39 @@
+
+table{
+    border-color: #FFDBB5;
+    margin:0 auto;
+    border:solid #C0C0C0 1px;
+    width: 80%;
+    margin-top: 20px;
+}
+
+
+th{
+    text-align: center;
+    color:#6C4E31;
+    font-family: "Nerko One", cursive;
+    border:solid #ededed 1px;
+}
+
+td{
+    padding:5px;
+    font-size:20px;
+    border:solid #ededed 1px;
+}
+
+caption{
+    border:solid #ededed 1px;
+    font-size:30px;
+    font-family:calibri;
+}
+
+
+    table, th, td,caption {
+       text-align: center;
+        color:#6C4E31;
+        background-color: #FFDBB5;
+border: 1px solid #b67755;
+}
+
+
+

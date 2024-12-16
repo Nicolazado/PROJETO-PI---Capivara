@@ -1,0 +1,187 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 9 de set. de 2024, 18:35:31
+    Author     : Mommys
+*/
+
+* {
+    margin:0px;
+    font-family: "Nerko One", cursive;
+}
+#s {
+    margin-bottom: 20px;
+}
+header {
+    margin: 0px;
+    display: flex;
+    width: 100%px;
+    justify-content: space-between;
+    background-color: #FFDBB5;
+}
+
+div>a>img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    flex: 30%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin: 15px;
+}
+.saudacao {
+    flex: 70%;
+    align-self: center;
+}
+
+div > form > button.cad {
+    height: 35px;
+    width:100%;
+    color: #FFDBB5;
+    background-color: #6C4E31;
+    border-radius: 10px;
+    align-self: center;
+    margin-bottom: 10px;
+}
+.cad:hover {
+    background-color: antiquewhite;
+    color: #6C4E31;
+
+}
+
+.entrar {
+    height: 35px;
+    width: 100%;
+    color: #FFDBB5;
+    background-color: #6C4E31;
+    border-radius: 10px;
+    align-self: center;
+    margin: 0;
+}
+
+.entrar:hover {
+    background-color: antiquewhite;
+    color: #6C4E31;
+}
+
+label {
+    color: #6C4E31;
+}
+
+nav {
+    color: antiquewhite;
+    display: flex;
+    margin-right: 10px;
+    justify-content: center;
+    gap: 300px;
+    background-color: #6C4E31;
+}
+
+body {
+    margin: 0;
+    color: #FFDBB5;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #6C4E31;
+}
+
+.salve {
+    color: antiquewhite;
+    text-align: center;
+}
+
+.video {
+    margin: 10px;
+    flex: 30%;
+}
+
+main {
+    background-image: url('https://images.vexels.com/media/users/3/318415/isolated/preview/e48c704b4e72949426d59ba985be6ef7-cute-couple-of-capybaras.png');  
+    background-repeat: no-repeat;
+    background-size: 30% 70%;
+    background-position: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    height: 50px;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    color: #6C4E31;
+    background-color:#FFDBB5 ;
+}
+nav > a {
+
+    color: #FFDBB5;
+}
+nav > a:hover {
+
+    background-color:  #6C4E31;
+    color:#A67B5B;
+    text-decoration: underline;
+}
+hr {
+    margin: 0;
+    height: 5px;
+    background-color: #FFDBB5;
+}
+
+.texto {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 70%;
+    justify-content: center;
+}
+
+main > div > #butt {
+    background-color: #FFDBB5;
+    color: #6C4E31;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-left: 5px;
+    width: 50%;
+    height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    align-self: center;
+    justify-self: center;
+    cursor: pointer;
+
+}
+main > div > #butt:hover {
+
+    background-color: #A67B5B;
+    color: #FFDBB5;
+}
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+.titulo > p {
+    color:  #6C4E31;
+}
+.tab {
+    color: #b67755;
+}
+
+
+
+
